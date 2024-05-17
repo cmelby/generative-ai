@@ -14,7 +14,7 @@ bq mk \
   --schedule_end_time="$(date -u -d '5 mins' +%Y-%m-%dT%H:%M:%SZ)" \
   --params='{
       "source_project_id":"google.com:lps-global-sales-engine-243309",
-      "source_dataset_id":"google.com:lps-global-sales-engine-243309.performanceOverview"
+      "source_dataset_id":"performanceOverview"
       }'
 
 # Install Python
